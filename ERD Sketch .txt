@@ -1,0 +1,36 @@
+ERD Sketch 
+
+departments
+-
+dept_no VARCHAR PK FK -< dept_emp.dept_no
+dept_name VARCHAR
+
+dept_emp
+-
+emp_no INT FK
+dept_no VARCHAR FK
+
+dept_manager
+-
+dept_no VARCHAR FK - departments.dept_no
+emp_no FK INT
+
+employees
+-
+emp_no INT PK FK >- dept_manager.emp_no
+emp_title_id VARCHAR FK >- titles.title_id
+birth_date DATE
+first_name VARCHAR
+last_name VARCHAR
+sex VARCHAR
+hire_date DATE
+
+salaries
+-
+emp_no VARCHAR FK
+salary INT FK - employees.emp_no
+
+titles
+-
+title_id VARCHAR PK
+title VARCHAR
