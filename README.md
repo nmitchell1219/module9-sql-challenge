@@ -1,3 +1,3 @@
 # sql-challenge
 
-I inluded a txt and png file of the ERD sketch
+This GitHub repository hosts the SQL schema and data analysis queries for an Employee Management System database, which outlines the structure and relationships of employees, departments, titles, and salaries across an organization. The included SQL file establishes the database schema with six relational tables and enforces data integrity through primary and foreign keys. Additionally, it contains various queries for data analysis, such as retrieving employee information by various criteria and listing department managers, providing a comprehensive toolkit for managing and analyzing employee data.
